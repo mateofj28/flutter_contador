@@ -2,15 +2,12 @@
 
 A new Flutter project.
 
-## Getting Started
+Esta es una aplicación de contador interactiva que permite al usuario controlar la forma en que se incrementa o decrementa un número.
 
-This project is a starting point for a Flutter application.
+En lugar de simplemente aumentar o disminuir el contador de uno en uno, esta aplicación introduce una capa de control adicional:
+    
+    1. Selección de la Escala de Conteo: El usuario puede elegir entre diferentes "escalas" de conteo (representadas por los botones 4, 5 y 6). Al tocar uno de estos botones, el usuario establece la cantidad en la que el contador cambiará cuando se realicen las acciones de incremento o decremento. Por ejemplo, si se selecciona la escala "4", los aumentos y disminuciones serán de cuatro en cuatro.
 
-A few resources to get you started if this is your first Flutter project:
+    2. Acciones de Incremento y Decremento: Una vez que se ha seleccionado una escala, el usuario puede usar los botones "+" (incrementar) y "-" (decrementar) para modificar el valor del contador en la escala previamente elegida.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    3. Restablecimiento: La aplicación también incluye un botón de "Reset" que permite al usuario volver el contador a su valor inicial (cero) en cualquier momento, sin afectar la escala de conteo seleccionada.
